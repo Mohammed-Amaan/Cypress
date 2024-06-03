@@ -18,10 +18,10 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000/) with your browser to see the result.
 
 4) Open Cypress
-In a new terminal run:
+In a new terminal :
 ```bash
 npx cypress run
 ```
-This will open the Cypress window 
+This will open the Cypress window with various configured tests
 
 5) Run the tests or create your own E2E/Component Tests!
