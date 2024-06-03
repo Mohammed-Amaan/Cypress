@@ -1,6 +1,6 @@
 describe("examples testing", () => {
   beforeEach(() => {
-    cy.visit("/");
+    cy.visit("/examples");
   });
   it("multi page testing", () => {
     cy.getDataTest("nav-fundamentals").click();
@@ -17,5 +17,11 @@ describe("examples testing", () => {
 
     cy.getDataTest("nav-examples").click();
     cy.location("pathname").should("equal", "/examples");
+  });
+  it.only("intercepts", () => {
+    cy.intercept("POST", "http://localhost:3000/examples", {
+      fixture: "example.json",
+    });
+    cy.getDataTest("post-button").click();
   });
 });
