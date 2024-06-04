@@ -6,14 +6,14 @@ Repo cloned from https://github.com/coderyansolomon/cypress-course
 # Getting Started
 1) Clone the repository
    ```bash
-  git clone https://github.com/Mohammed-Amaan/Cypress.git
-
-4) Navigate to the directory and install the packages
+   git clone https://github.com/Mohammed-Amaan/Cypress.git
+   ```
+2) Navigate to the directory and install the packages
  ```bash
  cd Cypress
  npm install
  ```
- 
+
 3) Run the application
 ```bash
 npm run dev
@@ -27,4 +27,4 @@ npx cypress run
 ```
 This will open the Cypress window with various configured tests.
 
-5) Run the tests or create your own E2E/Component Tests
+5) Run the tests or create your own E2E/Component Tests.
